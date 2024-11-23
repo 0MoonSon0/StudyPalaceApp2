@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e741fba01ce84952ac5112016e6991ff" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="STUDY_PALACEModel.Client" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="STUDY_PALACEModel.Consultation" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="STUDY_PALACEModel.Field" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="STUDY_PALACEModel.Service" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="STUDY_PALACEModel.ServiceList" Width="1.5" PointX="6" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="STUDY_PALACEModel.Specialist" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="STUDY_PALACEModel.Status" Width="1.5" PointX="5.25" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="STUDY_PALACEModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="7.625" IsExpanded="true" />
+        <AssociationConnector Association="STUDY_PALACEModel.FK__Consultat__clien__07C12930" ManuallyRouted="false" />
+        <AssociationConnector Association="STUDY_PALACEModel.FK__ServiceLi__clien__02084FDA" ManuallyRouted="false" />
+        <AssociationConnector Association="STUDY_PALACEModel.FK__Consultat__field__08B54D69" ManuallyRouted="false" />
+        <AssociationConnector Association="STUDY_PALACEModel.FK__Consultat__servi__05D8E0BE" ManuallyRouted="false" />
+        <AssociationConnector Association="STUDY_PALACEModel.FK__Status_Ne__consu__0B91BA14" ManuallyRouted="false" />
+        <AssociationConnector Association="STUDY_PALACEModel.FK__Specialis__field__0E6E26BF" ManuallyRouted="false" />
+        <AssociationConnector Association="STUDY_PALACEModel.FK__ServiceLi__servi__02FC7413" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="STUDY_PALACEModel.image" Width="1.5" PointX="8.375" PointY="3.75" />
+        <EntityTypeShape EntityType="STUDY_PALACEModel.User1" Width="1.5" PointX="4.25" PointY="0.875" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
